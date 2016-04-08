@@ -1,0 +1,7 @@
+class apples{
+	public static void main (String args []) {
+		int shane[] = {2,4,6,8,10,12};
+				
+		System.out.println(shane[2]);
+	}		
+	}

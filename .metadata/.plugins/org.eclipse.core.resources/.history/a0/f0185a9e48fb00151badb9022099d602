@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+class apples{
+	public static void main (String args []) {
+			int start = 6;
+			int end = 21;
+			int incr = 3; 
+			for (int counter=start;counter<=end;counter+=incr){
+				System.out.println(counter);
+			}
+		}
+		
+	}
+

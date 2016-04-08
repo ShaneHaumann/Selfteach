@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+class apples{
+	public static void main (String args []) {
+		int age = 40;
+		
+		if (age < 50) {
+			System.out.println("You are young");
+		}else{
+			System.out.println("You are old");
+		}
+	}
+}

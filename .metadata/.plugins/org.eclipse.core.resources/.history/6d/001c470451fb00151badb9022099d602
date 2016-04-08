@@ -1,0 +1,14 @@
+class apples{
+	public static void main (String args []) {
+		
+		System.out.println("Index\tValue");
+		int shane [] = {32,54,66,77,88,99,00};
+		int sum = 0;
+				
+		for (int counter=0;counter<shane.length;counter++){
+			sum+=shane[counter];
+			System.out.println(counter+"\t"+shane[counter]);
+	}		
+		System.out.println("Sum = " + sum);
+	}
+}

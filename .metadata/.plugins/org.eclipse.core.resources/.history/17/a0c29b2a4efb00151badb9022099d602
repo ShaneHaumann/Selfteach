@@ -1,0 +1,10 @@
+class apples{
+	public static void main (String args []) {
+		int shane[] = new int[10];
+		shane[0] = 87;
+		shane[1] = 543;
+		shane[9] = 22222222;
+		
+		System.out.println(shane[9]);
+	}		
+	}
