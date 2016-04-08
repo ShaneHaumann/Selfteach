@@ -66,3 +66,10 @@ Caused by: org.apache.http.client.HttpResponseException: Proxy Authentication Re
 2016-04-08 16:02:48,899 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@5cf7a8e6{/help,null,AVAILABLE}
 2016-04-08 16:02:49,039 [Start Help Server] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@5ea1b5e7{HTTP/1.1}{127.0.0.1:61178}
 2016-04-08 16:02:49,039 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @826908ms
+2016-04-08 16:50:39,789 [Start Help Server] INFO  org.eclipse.jetty.util.log - Logging initialized @31210ms
+2016-04-08 16:50:39,867 [Start Help Server] INFO  org.eclipse.jetty.server.Server - jetty-9.2.13.v20150730
+2016-04-08 16:50:39,914 [Start Help Server] INFO  o.e.j.server.handler.ContextHandler - Started o.e.j.s.ServletContextHandler@526aaa74{/help,null,AVAILABLE}
+2016-04-08 16:50:39,930 [Start Help Server] INFO  o.e.jetty.server.ServerConnector - Started ServerConnector@185e4534{HTTP/1.1}{127.0.0.1:61310}
+2016-04-08 16:50:39,930 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started @31354ms
+2016-04-08 17:20:03,382 [Stop Help Server] INFO  o.e.jetty.server.ServerConnector - Stopped ServerConnector@185e4534{HTTP/1.1}{127.0.0.1:0}
+2016-04-08 17:20:03,393 [Stop Help Server] INFO  o.e.j.server.handler.ContextHandler - Stopped o.e.j.s.ServletContextHandler@526aaa74{/help,null,UNAVAILABLE}

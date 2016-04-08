@@ -6,8 +6,8 @@ public class tuna {
 	
 	public void setTime (int h,int m,int s){
 		hour = ((h>=0 && h<24) ? h : 0);
-		min  = ((m>=0 && m<60) ? m : 0);
-		sec  = ((s>=0 && s<60) ? s : 0);
+		min  = ((h>=0 && h<60) ? m : 0);
+		sec  = ((h>=0 && h<60) ? s : 0);
 	}
 	
 	public String toMilitary() {
